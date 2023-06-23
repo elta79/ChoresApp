@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: ivory;    
+    user-select: none;
+    font-family: 'Gaegu', cursive;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    text-align: center;    
+}
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+input {
+    font-family: 'Gaegu', cursive;
+    margin-top: 10px;
+    text-align: center;
+    font-size:20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+button {
+    font-family: 'Gaegu', cursive;
+    margin-top: 10px;
+    font-size:20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+button:hover {
+    background: #8E9398;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ul li{
+    font-size:20px;
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid #7F411A;
+    border-radius: 8px;
+    padding: 15px;    
+    background: #FFE381;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover{
+    background: #944C1B;
+}
